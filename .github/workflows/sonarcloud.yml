@@ -25,3 +25,4 @@ jobs:
             -Dsonar.organization=sambit-rgb
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: https://yaeko-wholistic-enjoyably.ngrok-free.dev
